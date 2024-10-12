@@ -6,7 +6,7 @@ from typing import List, Optional, Dict, Any
 
 app = FastAPI()
 
-client = AsyncIOMotorClient("mongodb://localhost:27017")
+client = AsyncIOMotorClient("mongodb+srv://arvindaa0007:Arvind0007@cluster0.33urf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["Vodex_assignment"]
 
 # Helper function to format item data from MongoDB for response
