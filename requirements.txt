@@ -1,3 +1,4 @@
 fastapi==0.95.0
 uvicorn==0.22.0
 lxml==4.9.3
+motor>=2.5.0
